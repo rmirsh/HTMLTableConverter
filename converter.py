@@ -19,7 +19,7 @@ for row in column_data[1:]:
     df_len = len(df)
     df.loc[df_len] = individual_row_data
 
-df.to_csv(r'/Users/kamilayupov/Devel/MyProjects/HTMLTableConverter/files/data.csv', 
+df.to_csv(r'HTMLTableConverter/files/data.csv', 
           index=False)
 
 if __name__ == "__main__":
